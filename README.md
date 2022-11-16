@@ -33,7 +33,7 @@
    - After the server is deployed, click "Domain mappings" and copy the url of the new server. i.e. "server.xyz123.us-east.codeengine.appdomain.cloud"
 9. Open `godot-code-engine/game/project.godot` in Godot
    - Edit the connection string to match the newly deployed server `wss://server.xyz123.us-east.codeengine.appdomain.cloud` 
-   - Export the project to  `ce/game/dist/` it as an HTML5 app
+   - Export the project to  `ce/game/dist/` as an HTML5 app
 10. Build a docker image for the game
     ```shell
     cd godot-code-engine/ce/game
