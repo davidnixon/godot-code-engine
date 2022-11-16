@@ -1,4 +1,6 @@
-
+ce/game/dist/
+ce/server/dist/
+ce/server/Godot_*-stable_linux_headless.64
 # Godot-specific ignores
 .import/
 export.cfg
