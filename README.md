@@ -37,6 +37,8 @@
 10. Build a docker image for the game
     ```shell
     cd godot-code-engine/ce/game
+    curl https://downloads.tuxfamily.org/godotengine/3.5.1/Godot_v3.5.1-stable_linux_headless.64.zip
+    unzip Godot_v3.5.1-stable_linux_headless.64.zip
     podman build -t ce-websocket-game .
     ```
 11. Push the game image to the IBM container registry
