@@ -4,7 +4,7 @@ map $sent_http_content_type $spacache {
 }
 
 map $sent_http_content_type $expires {
-    default             30d;
+    default             1m;
     text/html           epoch;
     application/json    epoch;
 }
